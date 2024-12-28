@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Herb App{% endblock %}
+
+{% block content %}
+    <h1 class="text-center">Welcome to the Herb App</h1>
+    <p class="lead text-center">Explore a comprehensive database of medicinal and culinary herbs.</p>
+    <div class="text-center">
+        <a href="{% url 'herb_list' %}" class="btn btn-primary">View Herbs</a>
+    </div>
+{% endblock %}

@@ -4,7 +4,6 @@ class Herb(models.Model):
     name = models.CharField(max_length=255, unique=True)
     scientific_name = models.CharField(max_length=255, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
-    image = models.ImageField(upload_to='herb_images/', blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
