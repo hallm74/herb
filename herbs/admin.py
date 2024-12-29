@@ -60,7 +60,7 @@ class MedicinalUseAdmin(admin.ModelAdmin):
         """
         Display herbs related to this medicinal use in a comma-separated list.
         """
-        related_herbs = Herb.objects.filter(herbmedicinaluse__medicinal_use=obj)
+        related_herbs = Herb.objects.filter(herb_medicinal_uses__medicinal_use=obj)
         return ", ".join([herb.name for herb in related_herbs])
 
 

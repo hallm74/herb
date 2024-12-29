@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}{{ herb.name }}{% endblock %}
+{% block title %}{{ medicinal_use.name }}{% endblock %}
 
 {% block content %}
     <style>
@@ -15,17 +15,16 @@
         }
     </style>
 
-    <h1>{{ herb.name }}</h1>
-    <!-- Apply the linebreaks filter to preserve line breaks in the description -->
-    <p>{{ herb.description|linebreaks }}</p>
+    <h1>{{ medicinal_use.name }}</h1>
+    <p>{{ medicinal_use.description }}</p>
 
-    <h2>Medicinal Uses:</h2>
+    <h2>Related Herbs:</h2>
     <ul>
-        {% for use in medicinal_uses %}
+        {% for herb_medicinal in related_herbs %}
         <li>
-            <a href="{% url 'medicinal_use_detail' use.medicinal_use.id %}" class="back-link">
-                {{ use.medicinal_use.name }}
-            </a>: {{ use.medicinal_use.description }}
+            <a href="{% url 'herb_detail' herb_medicinal.herb.id %}" class="back-link">
+                {{ herb_medicinal.herb.name }}
+            </a>
         </li>
         {% endfor %}
     </ul>

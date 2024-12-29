@@ -3,27 +3,43 @@
 {% block title %}Herbs List{% endblock %}
 
 {% block content %}
+
+<style>
+    .medicinal-use-link {
+        color: black;
+        text-decoration: none; /* Remove underline by default */
+    }
+
+    .medicinal-use-link:hover {
+        text-decoration: underline; /* Add underline on hover */
+    }
+</style>
+
     <h1>Herbs</h1>
     <div class="row">
-      {% for herb in herbs %}
-    <div class="col-md-4 mb-3">
-      <div class="card">
-        <div class="card-body">
-            <h5 class="card-title">{{ herb.name }}</h5>
-            <p class="card-text">{{ herb.description|truncatechars:100 }}</p>
+        {% for herb in herbs %}
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{ herb.name }}</h5>
+                    <p class="card-text">{{ herb.description|truncatechars:100 }}</p>
 
-            <!-- Display Medicinal Uses -->
-            <h6>Medicinal Uses:</h6>
-            <ul>
-                {% for herb_medicinal in herb.herb_medicinal_uses.all %}
-                <li>{{ herb_medicinal.medicinal_use.name }}</li>
-            {% endfor %}
-             </ul>
+                    <!-- Display Medicinal Uses -->
+                    <h6>Medicinal Uses:</h6>
+                    <ul>
+                        {% for herb_medicinal in herb.herb_medicinal_uses.all %}
+                        <li>
+                            <a href="{% url 'medicinal_use_detail' herb_medicinal.medicinal_use.id %}" class="medicinal-use-link">
+                                {{ herb_medicinal.medicinal_use.name }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
 
-            <a href="{% url 'herb_detail' herb.id %}" class="btn btn-primary">Learn More</a>
+                    <a href="{% url 'herb_detail' herb.id %}" class="btn btn-primary">Learn More</a>
+                </div>
             </div>
         </div>
-    </div>
-{% endfor %}
+        {% endfor %}
     </div>
 {% endblock %}
