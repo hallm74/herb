@@ -10,19 +10,20 @@ from .models import (
     HerbRegion,
     CulinaryUse,
     HerbCulinaryUse,
+    Recipe
 )
 
 # Inline Admins
 class HerbCategoryInline(admin.TabularInline):
     model = HerbCategory
-    extra = 1  # Number of empty slots for new entries
+    extra = 1
 
 
 class HerbMedicinalUseInline(admin.TabularInline):
     model = HerbMedicinalUse
     extra = 1
-    verbose_name = "Related Herb"
-    verbose_name_plural = "Related Herbs"
+    verbose_name = "Medicinal Use"
+    verbose_name_plural = "Medicinal Uses"
 
 
 class HerbRegionInline(admin.TabularInline):
@@ -42,7 +43,7 @@ class HerbAdmin(admin.ModelAdmin):
     search_fields = ('name', 'scientific_name')
     inlines = [HerbCategoryInline, HerbMedicinalUseInline, HerbRegionInline, HerbCulinaryUseInline]
 
-
+# Other Admin Configurations
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ('name',)
@@ -57,9 +58,6 @@ class MedicinalUseAdmin(admin.ModelAdmin):
 
     @admin.display(description='Herbs')
     def get_related_herbs(self, obj):
-        """
-        Display herbs related to this medicinal use in a comma-separated list.
-        """
         related_herbs = Herb.objects.filter(herb_medicinal_uses__medicinal_use=obj)
         return ", ".join([herb.name for herb in related_herbs])
 
@@ -80,3 +78,10 @@ class RegionAdmin(admin.ModelAdmin):
 class CulinaryUseAdmin(admin.ModelAdmin):
     list_display = ('name',)
     search_fields = ('name',)
+
+
+@admin.register(Recipe)
+class RecipeAdmin(admin.ModelAdmin):
+    list_display = ('title',)
+    search_fields = ('title', 'text')
+    filter_horizontal = ('herbs',)

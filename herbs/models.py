@@ -88,3 +88,11 @@ class HerbCulinaryUse(models.Model):
 
     class Meta:
         unique_together = ('herb', 'culinary_use')
+
+class Recipe(models.Model):
+    title = models.CharField(max_length=255, unique=True)
+    text = models.TextField()  # Recipe description or instructions
+    herbs = models.ManyToManyField(Herb, related_name='recipes')  # Many-to-many with herbs
+
+    def __str__(self):
+        return self.title

@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}Recipe List{% endblock %}
+
+{% block content %}
+
+<style>
+    .recipe-link {
+        color: black;
+        text-decoration: none; /* Remove underline by default */
+    }
+
+    .recipe-link:hover {
+        text-decoration: underline; /* Add underline on hover */
+    }
+
+    .btn-learn-more {
+        display: inline-block;
+        background-color: #007bff;
+        color: white;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 0.25rem;
+    }
+
+    .btn-learn-more:hover {
+        background-color: #0056b3;
+        text-decoration: none;
+    }
+</style>
+
+<h1>Recipes</h1>
+<div class="row">
+    {% for recipe in recipes %}
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{ recipe.title }}</h5>
+                <p class="card-text">{{ recipe.text|truncatechars:100 }}</p>
+
+                <!-- Display Related Herbs -->
+                <h6>Herbs in this Recipe:</h6>
+                <ul>
+                    {% for herb in recipe.herbs.all %}
+                    <li>
+                        <a href="{% url 'herb_detail' herb.id %}" class="recipe-link">
+                            {{ herb.name }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <!-- Learn More Button -->
+                <a href="{% url 'recipe_detail' recipe.id %}" class="btn-learn-more">Learn More</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

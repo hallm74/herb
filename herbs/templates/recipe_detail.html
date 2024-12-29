@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ recipe.title }}{% endblock %}
+
+{% block content %}
+    <style>
+        .back-link {
+            color: black;
+            text-decoration: none; /* No underline by default */
+            transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
+        }
+
+        .back-link:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
+
+    <h1>{{ recipe.title }}</h1>
+    <!-- Use linebreaks filter to preserve newlines -->
+    <p>{{ recipe.text|linebreaks }}</p>
+
+    <h2>Herbs in this Recipe:</h2>
+    <ul>
+        {% for herb in recipe.herbs.all %}
+        <li>
+            <a href="{% url 'herb_detail' herb.id %}" class="back-link">
+                {{ herb.name }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'recipe_list' %}" class="btn btn-secondary">Back to Recipes</a>
+{% endblock %}
