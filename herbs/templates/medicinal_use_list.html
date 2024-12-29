@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}Medicinal Uses{% endblock %}
+
+{% block content %}
+    <h1>Medicinal Uses</h1>
+    <div class="row">
+        {% for use in medicinal_uses %}
+    <div class="col-md-4 mb-3">    
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{ use.name }}</h5>
+                <p>{{ use.description }}</p>
+                <h6>Related Herbs:</h6>
+                <ul>
+                    {% for herb_medicinal in use.medicinal_use_herbs.all %}
+                        <li>{{ herb_medicinal.herb.name }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+        {% endfor %}
+    </div>
+{% endblock %}

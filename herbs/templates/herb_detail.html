@@ -4,7 +4,8 @@
 
 {% block content %}
     <h1>{{ herb.name }}</h1>
-    <p>{{ herb.description|linebreaks }}</p> <!-- Added linebreaks filter -->
+    <!-- Apply the linebreaks filter to preserve line breaks in the description -->
+    <p>{{ herb.description|linebreaks }}</p>
 
     <h2>Medicinal Uses:</h2>
     <ul>

@@ -36,8 +36,16 @@ class MedicinalUse(models.Model):
 
 
 class HerbMedicinalUse(models.Model):
-    herb = models.ForeignKey(Herb, on_delete=models.CASCADE)
-    medicinal_use = models.ForeignKey(MedicinalUse, on_delete=models.CASCADE)
+    herb = models.ForeignKey(
+        Herb,
+        on_delete=models.CASCADE,
+        related_name='herb_medicinal_uses'  # Unique related_name for Herb
+    )
+    medicinal_use = models.ForeignKey(
+        MedicinalUse,
+        on_delete=models.CASCADE,
+        related_name='medicinal_use_herbs'  # Unique related_name for MedicinalUse
+    )
 
     class Meta:
         unique_together = ('herb', 'medicinal_use')
