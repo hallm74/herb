@@ -1,0 +1,1549 @@
+[
+{
+  "model": "herbs.herb",
+  "pk": 1,
+  "fields": {
+    "name": "Ashwagandha",
+    "scientific_name": "Withania somnifera",
+    "description": "Ashwagandha, also known as Withania somnifera, is an ancient medicinal herb that is commonly used in Ayurvedic medicine. It has been shown to have a variety of health benefits, including:\r\n1. Reducing stress and anxiety: Ashwagandha is an adaptogen, which means it helps your body cope with stress. Studies have shown that it can reduce cortisol levels, a hormone associated with stress.\r\n2. Improving brain function: Ashwagandha has been shown to improve memory and cognitive function in people with mild cognitive impairment. It may also help reduce inflammation in the brain, which can contribute to neurodegenerative diseases.\r\n3. Boosting testosterone and fertility in men: Ashwagandha has been shown to increase testosterone levels and improve sperm quality and fertility in men.\r\n4. Supporting immune function: Ashwagandha has immune-boosting properties and may help reduce inflammation, which can contribute to chronic diseases.\r\n5. Improving sleep quality: Ashwagandha has a calming effect and may improve sleep quality in people with insomnia.\r\n6. Supporting thyroid function: Ashwagandha may help regulate thyroid function by increasing the production of thyroid hormones.\r\nOverall, Ashwagandha is a powerful herb with a wide range of potential health benefits. However, it is important to note that more research is needed to fully understand its effects and potential side effects. As with any supplement, it is best to consult with a healthcare provider before starting to use Ashwagandha.",
+    "created_at": "2024-12-28T20:09:40.665Z",
+    "updated_at": "2024-12-28T21:17:16.915Z"
+  }
+},
+{
+  "model": "herbs.herb",
+  "pk": 2,
+  "fields": {
+    "name": "Alfalfa",
+    "scientific_name": "Medicago sativa",
+    "description": "Alfalfa (Medicago sativa) is a nutrient-rich plant that has been used for centuries for its potential health benefits. It is a member of the legume family and is commonly consumed as a food, supplement, or herbal remedy. Some of the potential health benefits of alfalfa include:\r\n1. Nutrient-rich: Alfalfa is packed with essential nutrients, including vitamins (such as vitamin A, vitamin C, vitamin K, and various B vitamins), minerals (such as calcium, magnesium, potassium, and iron), and phytonutrients (such as flavonoids and carotenoids). These nutrients are important for overall health and well-being.\r\n2. Antioxidant properties: Alfalfa contains various antioxidants, including flavonoids and other phytonutrients, which help neutralize harmful free radicals in the body. These antioxidants may help protect cells from oxidative stress and damage, and may have potential anti-aging effects.\r\n3. Digestive health support: Alfalfa has been traditionally used for digestive health. It is believed to have mild laxative properties and may help improve digestion, relieve constipation, and support a healthy gut.\r\n4. Hormonal balance: Alfalfa contains natural plant compounds known as phytoestrogens, which are similar in structure to human estrogen. These phytoestrogens may help regulate hormonal balance in the body and may be beneficial for women experiencing menopause or hormonal imbalances.\r\n5. Cholesterol management: Some studies suggest that alfalfa may help lower LDL (\"bad\") cholesterol levels in the blood, potentially contributing to improved cardiovascular health.\r\n6. Anti-inflammatory properties: Alfalfa has been studied for its potential anti-inflammatory properties. It is believed to help reduce inflammation in the body, which can contribute to various health conditions such as arthritis, allergies, and skin conditions.\r\n7. Blood sugar control: Some research suggests that alfalfa may have potential benefits for blood sugar control. It is believed to help improve insulin sensitivity and may help regulate blood sugar levels, which may be beneficial for individuals with diabetes or at risk of developing diabetes.\r\n8. Immune system support: Alfalfa contains various nutrients, including vitamin C, which is important for immune system function. It may help support a healthy immune system and may be beneficial for overall immune health.\r\n9. Bone health support: Alfalfa is a good source of calcium, magnesium, and other minerals that are important for bone health. Regular consumption of alfalfa may help support healthy bones and may be beneficial for individuals at risk of osteoporosis.",
+    "created_at": "2024-12-28T21:12:32.932Z",
+    "updated_at": "2024-12-28T21:13:25.252Z"
+  }
+},
+{
+  "model": "herbs.herb",
+  "pk": 3,
+  "fields": {
+    "name": "Astragalus",
+    "scientific_name": null,
+    "description": "Astragalus is a plant that has been used in traditional Chinese medicine for thousands of years. It is known for its many health benefits, which include:\r\n1. Boosting the Immune System: Astragalus contains compounds that can help stimulate the immune system, which can help the body fight off infections and diseases.\r\n2. Fighting Inflammation: Astragalus has anti-inflammatory properties that can help reduce inflammation throughout the body. Chronic inflammation has been linked to many diseases, so reducing inflammation can have a positive impact on overall health.\r\n3. Supporting Heart Health: Astragalus may help lower cholesterol levels, reduce blood pressure, and improve heart function. These benefits can help reduce the risk of heart disease and other cardiovascular problems.\r\n4. Supporting Kidney Health: Astragalus has been shown to help improve kidney function and reduce the risk of kidney damage in people with kidney disease.\r\n5. Supporting Respiratory Health: Astragalus has been used to treat respiratory infections, such as the common cold, and may help improve respiratory function in people with chronic lung conditions.\r\n6. Fighting Cancer: Some research suggests that astragalus may have anti-cancer properties, and may help inhibit the growth and spread of cancer cells.\r\nOverall, astragalus is a powerful herb that can offer many health benefits. However, as with any supplement or herbal remedy, it is important to speak with a healthcare professional before taking astragalus, especially if you are pregnant, breastfeeding, or taking any medications.",
+    "created_at": "2024-12-28T21:18:50.855Z",
+    "updated_at": "2024-12-28T23:54:57.448Z"
+  }
+},
+{
+  "model": "herbs.herb",
+  "pk": 4,
+  "fields": {
+    "name": "Garlic",
+    "scientific_name": null,
+    "description": "",
+    "created_at": "2024-12-29T22:17:47.740Z",
+    "updated_at": "2024-12-29T22:17:47.740Z"
+  }
+},
+{
+  "model": "herbs.herb",
+  "pk": 5,
+  "fields": {
+    "name": "Lemon",
+    "scientific_name": null,
+    "description": "",
+    "created_at": "2024-12-29T22:18:03.701Z",
+    "updated_at": "2024-12-29T22:18:03.701Z"
+  }
+},
+{
+  "model": "herbs.herb",
+  "pk": 6,
+  "fields": {
+    "name": "Honey (Raw)",
+    "scientific_name": null,
+    "description": "",
+    "created_at": "2024-12-29T22:18:24.460Z",
+    "updated_at": "2024-12-29T22:18:24.460Z"
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 1,
+  "fields": {
+    "name": "Reducing stress and anxiety",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 2,
+  "fields": {
+    "name": "Improving brain function",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 3,
+  "fields": {
+    "name": "Boosting testosterone and fertility in men",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 4,
+  "fields": {
+    "name": "Supporting immune function",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 5,
+  "fields": {
+    "name": "Improving sleep quality",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 6,
+  "fields": {
+    "name": "Supporting thyroid function",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 7,
+  "fields": {
+    "name": "Nutrient-rich",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 8,
+  "fields": {
+    "name": "Antioxidant properties",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 9,
+  "fields": {
+    "name": "Digestive health support",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 10,
+  "fields": {
+    "name": "Hormonal balance",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 11,
+  "fields": {
+    "name": "Cholesterol management",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 12,
+  "fields": {
+    "name": "Anti-inflammatory properties",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 13,
+  "fields": {
+    "name": "Blood sugar control",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 14,
+  "fields": {
+    "name": "Bone health support",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.medicinaluse",
+  "pk": 15,
+  "fields": {
+    "name": "Boosting the Immune System",
+    "description": ""
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 1,
+  "fields": {
+    "herb": 1,
+    "medicinal_use": 1
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 2,
+  "fields": {
+    "herb": 1,
+    "medicinal_use": 2
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 3,
+  "fields": {
+    "herb": 1,
+    "medicinal_use": 3
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 4,
+  "fields": {
+    "herb": 1,
+    "medicinal_use": 4
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 5,
+  "fields": {
+    "herb": 1,
+    "medicinal_use": 5
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 6,
+  "fields": {
+    "herb": 1,
+    "medicinal_use": 6
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 7,
+  "fields": {
+    "herb": 2,
+    "medicinal_use": 7
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 8,
+  "fields": {
+    "herb": 2,
+    "medicinal_use": 8
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 9,
+  "fields": {
+    "herb": 2,
+    "medicinal_use": 9
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 10,
+  "fields": {
+    "herb": 2,
+    "medicinal_use": 10
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 11,
+  "fields": {
+    "herb": 2,
+    "medicinal_use": 11
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 12,
+  "fields": {
+    "herb": 2,
+    "medicinal_use": 12
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 13,
+  "fields": {
+    "herb": 2,
+    "medicinal_use": 13
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 14,
+  "fields": {
+    "herb": 2,
+    "medicinal_use": 4
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 15,
+  "fields": {
+    "herb": 2,
+    "medicinal_use": 14
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 16,
+  "fields": {
+    "herb": 3,
+    "medicinal_use": 15
+  }
+},
+{
+  "model": "herbs.herbmedicinaluse",
+  "pk": 17,
+  "fields": {
+    "herb": 3,
+    "medicinal_use": 12
+  }
+},
+{
+  "model": "herbs.recipe",
+  "pk": 1,
+  "fields": {
+    "title": "Garlic Lemon Honey Tea",
+    "text": "The hot liquid can also help with decongestion. Bring 3 cups of water and 3 cloves of garlic (cut in half) to a boil. \r\n\r\nTurn off the heat and add 1/2 cup of honey and 1/2 cup of fresh lemon juice with the seeds and the rind included.[8] These contain a significant amount of vitamin C and antioxidants.\r\n\r\nStrain the tea and sip throughout the day.\r\n\r\nRefrigerate leftover tea and reheat as needed.",
+    "herbs": [
+      4,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-12-28T20:09:40.667Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Ashwagandha",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-12-28T20:10:43.235Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "Reducing stress and anxiety",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (1)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-12-28T20:11:06.197Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Improving brain function",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-12-28T20:11:25.607Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Ashwagandha",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (2)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-12-28T20:12:05.128Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Boosting testosterone and fertility in men",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-12-28T20:12:19.895Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "Supporting immune function",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-12-28T20:12:44.874Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "Improving sleep quality",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-12-28T20:13:15.754Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "6",
+    "object_repr": "Supporting thyroid function",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-12-28T20:13:18.059Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Ashwagandha",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (3)\"}}, {\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (4)\"}}, {\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (5)\"}}, {\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (6)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-12-28T20:54:18.511Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "shannon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-12-28T20:54:39.971Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "shannon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-12-28T20:56:24.616Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "shannon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-12-28T21:08:30.305Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "Editor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-12-28T21:08:48.439Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "shannon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-12-28T21:09:21.811Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "shannon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-12-28T21:10:36.198Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "Editor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-12-28T21:12:26.946Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "Nutrient-rich",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-12-28T21:12:32.935Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "Alfalfa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (7)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-12-28T21:12:49.083Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "8",
+    "object_repr": "Antioxidant properties",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-12-28T21:13:21.409Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "9",
+    "object_repr": "Digestive health support",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-12-28T21:13:25.255Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "Alfalfa",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (8)\"}}, {\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (9)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-12-28T21:13:56.099Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "10",
+    "object_repr": "Hormonal balance",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (10)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-12-28T21:14:17.625Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "11",
+    "object_repr": "Cholesterol management",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (11)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-12-28T21:14:38.156Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "12",
+    "object_repr": "Anti-inflammatory properties",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (12)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-12-28T21:14:55.721Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "13",
+    "object_repr": "Blood sugar control",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (13)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-12-28T21:16:08.164Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "Supporting immune function",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (14)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-12-28T21:16:29.196Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "14",
+    "object_repr": "Bone health support",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (15)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-12-28T21:17:16.917Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Ashwagandha",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-12-28T21:18:50.857Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "3",
+    "object_repr": "Astragalus",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-12-28T23:54:35.124Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "15",
+    "object_repr": "Boosting the Immune System",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-12-28T23:54:57.453Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "3",
+    "object_repr": "Astragalus",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (16)\"}}, {\"added\": {\"name\": \"herb medicinal use\", \"object\": \"HerbMedicinalUse object (17)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-12-29T22:17:20.259Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "Garlic Lemon Honey Tea",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-12-29T22:17:47.746Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "4",
+    "object_repr": "Garlic",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-12-29T22:18:03.708Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "5",
+    "object_repr": "Lemon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-12-29T22:18:24.465Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "6",
+    "object_repr": "Honey (Raw)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-12-29T22:18:43.986Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "Garlic Lemon Honey Tea",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Herbs\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-12-29T23:12:07.135Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "Garlic Lemon Honey Tea",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 1,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 1,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 1,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 1,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add culinary use",
+    "content_type": 2,
+    "codename": "add_culinaryuse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change culinary use",
+    "content_type": 2,
+    "codename": "change_culinaryuse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete culinary use",
+    "content_type": 2,
+    "codename": "delete_culinaryuse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view culinary use",
+    "content_type": 2,
+    "codename": "view_culinaryuse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add herb",
+    "content_type": 3,
+    "codename": "add_herb"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change herb",
+    "content_type": 3,
+    "codename": "change_herb"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete herb",
+    "content_type": 3,
+    "codename": "delete_herb"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view herb",
+    "content_type": 3,
+    "codename": "view_herb"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add medicinal use",
+    "content_type": 4,
+    "codename": "add_medicinaluse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change medicinal use",
+    "content_type": 4,
+    "codename": "change_medicinaluse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete medicinal use",
+    "content_type": 4,
+    "codename": "delete_medicinaluse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view medicinal use",
+    "content_type": 4,
+    "codename": "view_medicinaluse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add region",
+    "content_type": 5,
+    "codename": "add_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change region",
+    "content_type": 5,
+    "codename": "change_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete region",
+    "content_type": 5,
+    "codename": "delete_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view region",
+    "content_type": 5,
+    "codename": "view_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add growing condition",
+    "content_type": 6,
+    "codename": "add_growingcondition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change growing condition",
+    "content_type": 6,
+    "codename": "change_growingcondition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete growing condition",
+    "content_type": 6,
+    "codename": "delete_growingcondition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view growing condition",
+    "content_type": 6,
+    "codename": "view_growingcondition"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add herb category",
+    "content_type": 7,
+    "codename": "add_herbcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change herb category",
+    "content_type": 7,
+    "codename": "change_herbcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete herb category",
+    "content_type": 7,
+    "codename": "delete_herbcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view herb category",
+    "content_type": 7,
+    "codename": "view_herbcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add herb culinary use",
+    "content_type": 8,
+    "codename": "add_herbculinaryuse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change herb culinary use",
+    "content_type": 8,
+    "codename": "change_herbculinaryuse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete herb culinary use",
+    "content_type": 8,
+    "codename": "delete_herbculinaryuse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view herb culinary use",
+    "content_type": 8,
+    "codename": "view_herbculinaryuse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add herb medicinal use",
+    "content_type": 9,
+    "codename": "add_herbmedicinaluse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change herb medicinal use",
+    "content_type": 9,
+    "codename": "change_herbmedicinaluse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete herb medicinal use",
+    "content_type": 9,
+    "codename": "delete_herbmedicinaluse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view herb medicinal use",
+    "content_type": 9,
+    "codename": "view_herbmedicinaluse"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add herb region",
+    "content_type": 10,
+    "codename": "add_herbregion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change herb region",
+    "content_type": 10,
+    "codename": "change_herbregion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete herb region",
+    "content_type": 10,
+    "codename": "delete_herbregion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view herb region",
+    "content_type": 10,
+    "codename": "view_herbregion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 11,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 11,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 11,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 11,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 12,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 12,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 12,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 12,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 13,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 13,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 13,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 13,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 14,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 14,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 14,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 14,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 15,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 15,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 15,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 15,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 16,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 16,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 16,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 16,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add recipe",
+    "content_type": 17,
+    "codename": "add_recipe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change recipe",
+    "content_type": 17,
+    "codename": "change_recipe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete recipe",
+    "content_type": 17,
+    "codename": "delete_recipe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view recipe",
+    "content_type": 17,
+    "codename": "view_recipe"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Editor",
+    "permissions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      21,
+      22,
+      23,
+      24,
+      9,
+      10,
+      11,
+      12,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$UsAjzPKGemqjWjkzix1Dfc$h7ZCu3A1FCyLYMj97AngB6GtlMPKjEX70RVSEah1304=",
+    "last_login": "2024-12-29T22:14:09.739Z",
+    "is_superuser": true,
+    "username": "hallm",
+    "first_name": "",
+    "last_name": "",
+    "email": "hallm@1satcom.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-12-28T20:01:42.192Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$1PJ7RSsqEwowneO1W1plSZ$cjjCkyxTDBYVtOc+vcILTLsTe8MPBgEPPLAzYQJEaQ8=",
+    "last_login": "2024-12-28T21:25:34.219Z",
+    "is_superuser": false,
+    "username": "shannon",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-12-28T20:54:18Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "b33l32r2c1p03rcup9dr8kwz6vv7vslt",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCYjkBduvcMBIZBqgaS0q6Md7dNutDtf-_9t_BhXYpfO89-SuIitDj9bjHQk-sO0iPUe5PU6jJPUe6KPGiXt5b4dT3cv4MSetlqRAeKMpicE2sNNmMmG_VAFBTSOAJby3bAzE5Zg-4cjGOFYFBvEYjPF-JYN04:1tRdsE:fWAen-2CQYOxU6O0vyFZ23CidlqDU1RYuQJ-R8OgGmM",
+    "expire_date": "2025-01-11T20:57:26.161Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kk0svniohpgyb344av7aj1v48e1gaqc5",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQRO9CHSFA5rMp0-cMiF2W4CTCkrErK3ePLblIypn3ZjYR07rUuHae45jFVRhx-e0w0YvbAfIztcckaWrLPKI8FHnSLu9T5vftdP8Oaup1X1ubDPkhsE-oNe4BPDmm4h14m5VnNoaBEDAEUsXAAMgOXLGsQGnx-QL0ajgh:1tReJS:lhtgBnCmUafxtqBj4r7yheKqjm0BeRNvcpSLv_oW9f0",
+    "expire_date": "2025-01-11T21:25:34.221Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pi4s2qxicktbsywoczbjp2hwp7bb6ap1",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCYjkBduvcMBIZBqgaS0q6Md7dNutDtf-_9t_BhXYpfO89-SuIitDj9bjHQk-sO0iPUe5PU6jJPUe6KPGiXt5b4dT3cv4MSetlqRAeKMpicE2sNNmMmG_VAFBTSOAJby3bAzE5Zg-4cjGOFYFBvEYjPF-JYN04:1tS1Y1:b6eNh3KYkmUBXS50R1f-e00q_QqspfsOvtuIC-LMCUc",
+    "expire_date": "2025-01-12T22:14:09.741Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pv5r8uelwic05s0ig1gr7mhzoict00i8",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCYjkBduvcMBIZBqgaS0q6Md7dNutDtf-_9t_BhXYpfO89-SuIitDj9bjHQk-sO0iPUe5PU6jJPUe6KPGiXt5b4dT3cv4MSetlqRAeKMpicE2sNNmMmG_VAFBTSOAJby3bAzE5Zg-4cjGOFYFBvEYjPF-JYN04:1tReJg:-GQUp0Ih4yqaxu8_LHcWDjEoG1oCLO5TMbqxBsTxfyU",
+    "expire_date": "2025-01-11T21:25:48.488Z"
+  }
+}
+]
