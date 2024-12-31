@@ -1,6 +1,9 @@
 from django.shortcuts import get_object_or_404, render
+from django.http import JsonResponse
 from django.db.models import Q
+from django.views.decorators.csrf import csrf_exempt
 from .models import Herb, MedicinalUse, HerbMedicinalUse, Recipe
+from .utils import search_unsplash
 
 
 def home(request):
@@ -64,3 +67,24 @@ def search_view(request):
         'medicinal_use_results': medicinal_use_results,
         'recipe_results': recipe_results,
     })
+
+@csrf_exempt
+def unsplash_search_view(request):
+    """
+    A view to handle Unsplash API search and return JSON results.
+    """
+    query = request.GET.get('q', '')  # Fetch the search query from the GET request
+    if query:
+        # Call the Unsplash API utility function
+        results = search_unsplash(query)
+        # Format results to include URL, thumbnail, and description
+        formatted_results = [
+            {
+                'url': image['urls']['regular'],
+                'thumbnail': image['urls']['thumb'],
+                'description': image.get('alt_description', 'No description available')
+            }
+            for image in results
+        ]
+        return JsonResponse(formatted_results, safe=False)  # Return JSON response
+    return JsonResponse([], safe=False)  # Return empty list if no query

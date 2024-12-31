@@ -13,33 +13,120 @@
     .medicinal-use-link:hover {
         text-decoration: underline; /* Add underline on hover */
     }
+
+    .card {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        padding: 1rem;
+    }
+
+    .card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-title {
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .card-body {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .card-image-container {
+        flex: 0 0 150px; /* Fixed size for the image container */
+    }
+
+    .card-image-container img {
+        width: 150px; /* Adjust image size */
+        height: auto;
+        border-radius: 5px; /* Rounded corners */
+        object-fit: cover; /* Ensures the image fills the area */
+    }
+
+    .card-text {
+        flex: 1;
+        color: #555;
+        text-align: justify; /* Makes the text wrap more naturally */
+    }
+
+    @media (max-width: 768px) {
+        .card-body {
+            flex-direction: column; /* Stack image and text on smaller screens */
+        }
+
+        .card-image-container {
+            margin-bottom: 1rem; /* Adds spacing below the image */
+        }
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
 </style>
 
-    <h1>Herbs</h1>
-    <div class="row">
-        {% for herb in herbs %}
-        <div class="col-md-4 mb-3">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">{{ herb.name }}</h5>
-                    <p class="card-text">{{ herb.description|truncatechars:100 }}</p>
+<h1>Herbs</h1>
+<div class="row">
+    {% for herb in herbs %}
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <!-- Title -->
+            <h5 class="card-title">{{ herb.name }}</h5>
 
-                    <!-- Display Medicinal Uses -->
-                    <h6>Medicinal Uses:</h6>
-                    <ul>
-                        {% for herb_medicinal in herb.herb_medicinal_uses.all %}
-                        <li>
-                            <a href="{% url 'medicinal_use_detail' herb_medicinal.medicinal_use.id %}" class="medicinal-use-link">
-                                {{ herb_medicinal.medicinal_use.name }}
-                            </a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-
-                    <a href="{% url 'herb_detail' herb.id %}" class="btn btn-primary">Learn More</a>
+            <div class="card-body">
+                <!-- Image -->
+                <div class="card-image-container">
+                    {% if herb.image %}
+                    <img src="{{ herb.image.url }}" alt="{{ herb.name }}">
+                    {% elif herb.unsplash_image_url %}
+                    <img src="{{ herb.unsplash_image_url }}" alt="{{ herb.name }}">
+                    {% else %}
+                    <img src="/static/images/default-herb.jpg" alt="Default Herb">
+                    {% endif %}
                 </div>
+
+                <!-- Description -->
+                <p class="card-text">{{ herb.description|truncatechars:100 }}</p>
             </div>
+
+            <!-- Medicinal Uses -->
+            <h6>Medicinal Uses:</h6>
+            <ul>
+                {% for herb_medicinal in herb.herb_medicinal_uses.all %}
+                <li>
+                    <a href="{% url 'medicinal_use_detail' herb_medicinal.medicinal_use.id %}" class="medicinal-use-link">
+                        {{ herb_medicinal.medicinal_use.name }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+
+            <!-- Actions -->
+            <a href="{% url 'herb_detail' herb.id %}" class="btn">Learn More</a>
         </div>
-        {% endfor %}
     </div>
+    {% endfor %}
+</div>
+
 {% endblock %}

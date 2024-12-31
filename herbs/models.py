@@ -1,11 +1,15 @@
 from django.db import models
 
+from django.db import models
+
 class Herb(models.Model):
     name = models.CharField(max_length=255, unique=True)
     scientific_name = models.CharField(max_length=255, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    image = models.ImageField(upload_to='herbs/', blank=True, null=True)  # For manual uploads
+    unsplash_image_url = models.URLField(max_length=500, blank=True, null=True)  # For Unsplash API images
 
     def __str__(self):
         return self.name
