@@ -68,17 +68,19 @@
         }
     }
 
-    .btn {
+     .btn {
         display: inline-block;
         padding: 0.5rem 1rem;
-        border: none;
-        border-radius: 5px;
+        border: 1px solid #007bff;
+        border-radius: 5px; /* Matches the rounded corners */
         background-color: #007bff;
         color: white;
         text-decoration: none;
         font-size: 0.9rem;
+        font-weight: bold;
         cursor: pointer;
-        transition: background-color 0.2s ease;
+        text-align: center;
+        transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
     }
 
     .btn:hover {
