@@ -9,4 +9,5 @@ urlpatterns = [
     path('<int:medicinal_use_id>/medicinal-use/', views.medicinal_use_detail, name='medicinal_use_detail'),
     path('recipes/', views.recipe_list, name='recipe_list'),
     path('recipes/<int:recipe_id>/', views.recipe_detail, name='recipe_detail'),
+    path('search/', views.search_view, name='search'),  # Added search functionality
 ]

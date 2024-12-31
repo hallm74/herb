@@ -16,7 +16,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
                     </li>
@@ -24,12 +24,17 @@
                         <a class="nav-link" href="{% url 'herb_list' %}">Herbs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'medicinal_use_list' %}">Medicinal Uses</a> <!-- New Menu Item -->
+                        <a class="nav-link" href="{% url 'medicinal_use_list' %}">Medicinal Uses</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'recipe_list' %}">Recipes</a>
                     </li>
                 </ul>
+                <!-- Search Form -->
+                <form class="d-flex" method="get" action="{% url 'search' %}">
+                    <input class="form-control me-2" type="search" placeholder="Search herbs..." aria-label="Search" name="q" required>
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
             </div>
         </div>
     </nav>

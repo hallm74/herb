@@ -1,4 +1,5 @@
 from django.shortcuts import get_object_or_404, render
+from django.db.models import Q
 from .models import Herb, MedicinalUse, HerbMedicinalUse, Recipe
 
 
@@ -36,3 +37,30 @@ def recipe_list(request):
 def recipe_detail(request, recipe_id):
     recipe = get_object_or_404(Recipe, id=recipe_id)
     return render(request, 'recipe_detail.html', {'recipe': recipe})
+
+def search_view(request):
+    query = request.GET.get('q', '')  # Get the search query from the URL
+    herb_results = []
+    medicinal_use_results = []
+    recipe_results = []
+
+    if query:
+        # Perform a case-insensitive search and prefetch related medicinal uses
+        herb_results = Herb.objects.filter(
+            Q(name__icontains=query) | Q(description__icontains=query)
+        ).prefetch_related('herb_medicinal_uses__medicinal_use')  # Ensure medicinal uses are prefetched
+
+        medicinal_use_results = MedicinalUse.objects.filter(
+            Q(name__icontains=query) | Q(description__icontains=query)
+        )
+
+        recipe_results = Recipe.objects.filter(
+            Q(title__icontains=query) | Q(text__icontains=query)
+        )
+
+    return render(request, 'search_results.html', {
+        'query': query,
+        'herb_results': herb_results,
+        'medicinal_use_results': medicinal_use_results,
+        'recipe_results': recipe_results,
+    })

@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+
+{% block title %}Search Results{% endblock %}
+
+{% block content %}
+
+<style>
+    .medicinal-use-link, .herb-link {
+        color: black;
+        text-decoration: none; /* Remove underline by default */
+    }
+
+    .medicinal-use-link:hover, .herb-link:hover {
+        text-decoration: underline; /* Add underline on hover */
+    }
+</style>
+
+<h1>Search Results for "{{ query }}"</h1>
+
+<div class="row">
+    <!-- Herb Results -->
+    {% if herb_results %}
+    <h2>Herbs</h2>
+    {% for herb in herb_results %}
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{ herb.name }}</h5>
+                <p class="card-text">{{ herb.description|truncatechars:100 }}</p>
+
+                <!-- Display Medicinal Uses -->
+                <h6>Medicinal Uses:</h6>
+                <ul>
+                    {% for herb_medicinal in herb.herb_medicinal_uses.all %}
+                    <li>
+                        <a href="{% url 'medicinal_use_detail' herb_medicinal.medicinal_use.id %}" class="medicinal-use-link">
+                            {{ herb_medicinal.medicinal_use.name }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <a href="{% url 'herb_detail' herb.id %}" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    {% else %}
+    <p>No herbs found.</p>
+    {% endif %}
+
+    <!-- Medicinal Use Results -->
+    {% if medicinal_use_results %}
+    <h2>Medicinal Uses</h2>
+    {% for use in medicinal_use_results %}
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{ use.name }}</h5>
+                <p class="card-text">{{ use.description|truncatechars:100 }}</p>
+
+                <!-- Display Related Herbs -->
+                <h6>Herbs with this Use:</h6>
+                <ul>
+                    {% for related_herb in use.medicinal_use_herbs.all %}
+                    <li>
+                        <a href="{% url 'herb_detail' related_herb.herb.id %}" class="herb-link">
+                            {{ related_herb.herb.name }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <a href="{% url 'medicinal_use_detail' use.id %}" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    {% else %}
+    <p>No medicinal uses found.</p>
+    {% endif %}
+
+    <!-- Recipe Results -->
+    {% if recipe_results %}
+    <h2>Recipes</h2>
+    {% for recipe in recipe_results %}
+    <div class="col-md-4 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{ recipe.title }}</h5>
+                <p class="card-text">{{ recipe.text|truncatechars:100 }}</p>
+
+                <!-- Display Related Herbs -->
+                <h6>Herbs in this Recipe:</h6>
+                <ul>
+                    {% for herb in recipe.herbs.all %}
+                    <li>
+                        <a href="{% url 'herb_detail' herb.id %}" class="herb-link">
+                            {{ herb.name }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <a href="{% url 'recipe_detail' recipe.id %}" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    {% else %}
+    <p>No recipes found.</p>
+    {% endif %}
+</div>
+
+{% endblock %}
