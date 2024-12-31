@@ -2,6 +2,12 @@
 
 {% block title %}Herbs List{% endblock %}
 
+{% block head %}
+<meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}/static/images/herbs-list-ogimage.jpg">
+<meta property="og:title" content="Explore Our List of Herbs">
+<meta property="og:description" content="Discover a wide variety of herbs, their medicinal uses, and more!">
+{% endblock %}
+
 {% block content %}
 
 <style>

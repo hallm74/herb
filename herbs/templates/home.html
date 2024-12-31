@@ -2,6 +2,13 @@
 
 {% block title %}Home - Herb App{% endblock %}
 
+ <!-- OpenGraph Meta Tags -->
+ {% block head %}
+ <meta property="og:image" content="/static/images/default-ogimage.jpg">
+ <meta property="og:title" content="The Herb App">
+ <meta property="og:description" content="Default description for the site.">
+ {% endblock %}
+
 {% block content %}
     <h1 class="text-center">Welcome to the Herb App</h1>
     <p class="lead text-center">Explore a comprehensive database of medicinal and culinary herbs.</p>

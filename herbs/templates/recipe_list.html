@@ -2,6 +2,12 @@
 
 {% block title %}Recipe List{% endblock %}
 
+{% block head %}
+<meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}/static/images/recipes-ogimage.jpg">
+<meta property="og:title" content="Explore Herbal Recipes">
+<meta property="og:description" content="Discover a variety of recipes using herbs to promote health, wellness, and delicious flavors.">
+{% endblock %}
+
 {% block content %}
 
 <style>

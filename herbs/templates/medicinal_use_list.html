@@ -1,6 +1,13 @@
 {% extends 'base.html' %}
 {% block title %}Medicinal Uses{% endblock %}
 
+
+{% block head %}
+<meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}/static/images/medicinal-uses-ogimage.jpg">
+<meta property="og:title" content="Explore Medicinal Uses of Herbs">
+<meta property="og:description" content="Discover the health benefits of various herbs and their traditional medicinal uses.">
+{% endblock %}
+
 {% block content %}
 <style>
     .back-link {
