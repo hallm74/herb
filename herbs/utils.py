@@ -1,6 +1,7 @@
 import requests
+from decouple import config
 
-UNSPLASH_ACCESS_KEY = 't05cL0A2qAk-TQkfzjhHCG9xUdqDJzKo8FU7h6zMqaE'  # Replace with your Unsplash Access Key
+UNSPLASH_ACCESS_KEY = config('UNSPLASH')  # Replace with your Unsplash Access Key
 
 def search_unsplash(query):
     url = "https://api.unsplash.com/search/photos"
